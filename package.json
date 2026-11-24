@@ -1,0 +1,11 @@
+{
+  "name": "freeagent",
+  "version": "0.1.0",
+  "description": "A Claude Code-style terminal coding agent that routes across the free tiers of many LLM providers, using your own API keys.",
+  "type": "module",
+  "bin": { "freeagent": "bin/freeagent.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "license": "MIT",
+  "files": ["bin", "src", "README.md", "LICENSE"]
+}
